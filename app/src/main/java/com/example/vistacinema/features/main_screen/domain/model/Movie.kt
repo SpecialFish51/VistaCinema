@@ -1,0 +1,22 @@
+package com.example.vistacinema.features.main_screen.domain.model
+
+import android.os.Parcelable
+import java.util.*
+
+@Parcelize
+data class Movie(
+    val adult: Boolean,
+    val genres: List<String>,
+    val id: Int,
+    val originalLanguage: String,
+    val originalTitle: String,
+    val overview: String,
+    val releaseDate: Calendar?,
+    val posterPath: String,
+    val popularity: Double,
+    val title: String,
+    val video: String,
+    val voteAverage: Double,
+    val voteCount: Int,
+    val favourite: Boolean
+) : Parcelable

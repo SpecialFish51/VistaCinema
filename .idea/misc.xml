@@ -3,8 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/ic_arrow_back.xml" value="0.20364583333333333" />
+        <entry key="app/src/main/res/drawable-v24/ic_arrow_down.xml" value="0.20364583333333333" />
+        <entry key="app/src/main/res/drawable-v24/ic_arrow_up.xml" value="0.20364583333333333" />
+        <entry key="app/src/main/res/drawable-v24/ic_auto_awesome_mosaic.xml" value="0.20364583333333333" />
+        <entry key="app/src/main/res/drawable-v24/ic_bookmark.xml" value="0.20364583333333333" />
+        <entry key="app/src/main/res/drawable-v24/ic_bookmark_border.xml" value="0.20364583333333333" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.20364583333333333" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.20364583333333333" />
+        <entry key="app/src/main/res/drawable-v24/ic_non_existing_url.xml" value="0.20364583333333333" />
+        <entry key="app/src/main/res/drawable-v24/ic_sort.xml" value="0.20364583333333333" />
+        <entry key="app/src/main/res/drawable-v24/ic_star.xml" value="0.20364583333333333" />
+        <entry key="app/src/main/res/drawable-v24/ic_thumb_up.xml" value="0.20364583333333333" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.20364583333333333" />
+        <entry key="app/src/main/res/layout/custom_player_control_view.xml" value="0.1875" />
         <entry key="app/src/main/res/layout/fragment_bookmarks.xml" value="0.33958333333333335" />
         <entry key="app/src/main/res/layout/fragment_films_list.xml" value="0.33958333333333335" />
+        <entry key="app/src/main/res/layout/fragment_movie_card.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_movies_list.xml" value="0.1875" />
+        <entry key="app/src/main/res/layout/fragment_player.xml" value="0.1875" />
+        <entry key="app/src/main/res/layout/item_movie_one_column.xml" value="0.1875" />
+        <entry key="app/src/main/res/layout/item_movie_three_column.xml" value="0.1875" />
+        <entry key="app/src/main/res/layout/item_movie_two_column.xml" value="0.1875" />
       </map>
     </option>
   </component>

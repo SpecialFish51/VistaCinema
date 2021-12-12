@@ -1,4 +1,18 @@
 <resources>
-    <string name="app_name">OnlineCinema</string>
-    <string name="tv_title_placeholder">Titles</string>
+    <string name="app_name">VistaCinema</string>
+    <string name="recommendations">Recommended</string>
+    <string name="vistacinema">VistaCinema</string>
+    <string name="year">Year: %s</string>
+    <string name="rating">Rating: %s</string>
+    <string name="genre">Genre: %s</string>
+    <string name="vote_average_count">%.1f (%d)</string>
+    <string name="popularity">%.1f</string>
+    <string name="play">Play</string>
+    <string name="channel_name">Player</string>
+    <string name="movie">Movie</string>
+    <string name="loading_error">Loading error</string>
+    <string name="sortDate">Date</string>
+    <string name="sortName">Name</string>
+    <string name="sortRating">Rating</string>
+    <string name="sortPopularity">Popularity</string>
 </resources>

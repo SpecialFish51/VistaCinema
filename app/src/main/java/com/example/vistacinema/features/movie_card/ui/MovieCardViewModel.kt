@@ -1,5 +1,6 @@
 package com.example.vistacinema.features.movie_card.ui
 
+import com.example.vistacinema.features.base.navigation.Screens
 import com.example.vistacinema.features.base.view_model.BaseViewModel
 import com.example.vistacinema.features.base.view_model.Event
 import com.github.terrakok.cicerone.Router

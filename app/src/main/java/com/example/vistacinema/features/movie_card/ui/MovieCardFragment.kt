@@ -4,6 +4,13 @@ import android.os.Bundle
 import android.view.View
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
+import by.kirich1409.viewbindingdelegate.viewBinding
+import com.example.vistacinema.R
+import com.example.vistacinema.databinding.FragmentMovieCardBinding
+import com.example.vistacinema.features.base.utils.loadImage
+import com.example.vistacinema.features.base.utils.setThrottledClickListener
+import com.example.vistacinema.features.base.utils.toStringFormat
+import com.example.vistacinema.features.main_screen.domain.model.Movie
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MovieCardFragment : Fragment(R.layout.fragment_movie_card) {

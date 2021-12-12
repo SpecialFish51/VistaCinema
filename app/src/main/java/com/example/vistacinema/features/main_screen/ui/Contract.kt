@@ -1,6 +1,8 @@
 package com.example.vistacinema.features.main_screen.ui
 
 import com.example.vistacinema.features.base.view_model.Event
+import com.example.vistacinema.features.base.view_model.Sorting
+import com.example.vistacinema.features.main_screen.domain.model.Movie
 
 data class ViewState(
     val movies: List<Movie>,

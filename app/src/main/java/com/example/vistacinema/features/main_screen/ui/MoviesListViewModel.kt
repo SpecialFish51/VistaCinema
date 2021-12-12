@@ -1,6 +1,17 @@
 package com.example.vistacinema.features.main_screen.ui
 
+import androidx.lifecycle.viewModelScope
+import com.example.vistacinema.features.base.constants.Constants
+import com.example.vistacinema.features.base.navigation.Screens
+import com.example.vistacinema.features.base.view_model.BaseViewModel
+import com.example.vistacinema.features.base.view_model.Event
+import com.example.vistacinema.features.base.view_model.SingleLiveEvent
+import com.example.vistacinema.features.base.view_model.Sorting
+import com.example.vistacinema.features.main_screen.domain.MoviesInteractor
+import com.example.vistacinema.features.main_screen.domain.model.Movie
 import com.github.terrakok.cicerone.Router
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 
 class MoviesListViewModel(private val interactor: MoviesInteractor, private val router: Router) :
     BaseViewModel<ViewState>() {

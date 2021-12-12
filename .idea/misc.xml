@@ -25,6 +25,7 @@
         <entry key="app/src/main/res/layout/item_movie_one_column.xml" value="0.1875" />
         <entry key="app/src/main/res/layout/item_movie_three_column.xml" value="0.1875" />
         <entry key="app/src/main/res/layout/item_movie_two_column.xml" value="0.1875" />
+        <entry key="app/src/main/res/menu/menu_sort_main_screen.xml" value="0.33958333333333335" />
       </map>
     </option>
   </component>

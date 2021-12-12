@@ -34,4 +34,11 @@
         <item name="colorSurface">?attr/colorSurfaceMain</item>
     </style>
 
+    <style name="buttonColored" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@color/black_70</item>
+    </style>
+
+    <style name="AppBarLayoutCustom">
+        <item name="android:background">@color/background_medium</item>
+    </style>
 </resources>

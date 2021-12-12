@@ -5,6 +5,11 @@ import android.view.View
 import androidx.appcompat.widget.PopupMenu
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
+import by.kirich1409.viewbindingdelegate.viewBinding
+import com.example.vistacinema.R
+import com.example.vistacinema.databinding.FragmentMoviesListBinding
+import com.example.vistacinema.features.base.utils.setThrottledClickListener
+import com.example.vistacinema.features.main_screen.ui.adapter.SimpleAdapter
 import com.google.android.material.snackbar.Snackbar
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

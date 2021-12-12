@@ -1,6 +1,5 @@
 package com.example.vistacinema.features.player.di
 
-import androidx.leanback.media.PlayerAdapter
 import com.example.vistacinema.features.player.service.PlayerService
 import com.example.vistacinema.features.player.ui.PlayerFragmentViewModel
 import com.github.terrakok.cicerone.Router
@@ -9,6 +8,7 @@ import com.google.android.exoplayer2.ui.PlayerNotificationManager
 import org.koin.android.ext.koin.androidContext
 import org.koin.dsl.module
 import org.koin.androidx.viewmodel.dsl.viewModel
+import com.example.vistacinema.features.player.service.notifications.PlayerAdapter
 
 val modulePlayer = module {
 
@@ -18,6 +18,7 @@ val modulePlayer = module {
 
     single<PlayerAdapter> {
         PlayerAdapter(androidContext())
+
     }
 
     single<PlayerNotificationManager.Builder> {

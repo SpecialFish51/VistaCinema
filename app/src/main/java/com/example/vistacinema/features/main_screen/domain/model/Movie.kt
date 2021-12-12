@@ -1,10 +1,12 @@
 package com.example.vistacinema.features.main_screen.domain.model
 
+
 import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
 import java.util.*
 
 @Parcelize
-data class Movie(
+ data class Movie(
     val adult: Boolean,
     val genres: List<String>,
     val id: Int,

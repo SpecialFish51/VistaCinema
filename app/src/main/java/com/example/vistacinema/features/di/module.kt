@@ -1,5 +1,6 @@
 package com.example.vistacinema.features.di
 
+import com.example.vistacinema.features.base.constants.Constants
 import com.github.terrakok.cicerone.Cicerone
 import com.github.terrakok.cicerone.NavigatorHolder
 import com.github.terrakok.cicerone.Router

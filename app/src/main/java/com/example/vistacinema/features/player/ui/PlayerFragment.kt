@@ -11,10 +11,14 @@ import android.view.View
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import by.kirich1409.viewbindingdelegate.viewBinding
+import com.example.vistacinema.R
+import com.example.vistacinema.databinding.FragmentPlayerBinding
 import com.example.vistacinema.features.base.utils.hideSystemUI
 import com.example.vistacinema.features.base.utils.showSystemUI
 import com.example.vistacinema.features.player.service.PlayerService
 import org.koin.androidx.viewmodel.ext.android.viewModel
+import com.example.vistacinema.features.base.utils.onBackPressed
+import com.google.android.exoplayer2.audio.AudioAttributes
 
 class PlayerFragment : Fragment(R.layout.fragment_player) {
     companion object {

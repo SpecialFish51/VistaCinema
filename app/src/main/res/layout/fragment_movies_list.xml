@@ -17,7 +17,7 @@
         android:id="@+id/tvAppBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/kinoonline"
+        android:text="@string/vistacinema"
         android:textAppearance="@style/Pacifico.H2"
         app:layout_constraintBaseline_toBottomOf="@id/ivMosaic"
         app:layout_constraintEnd_toEndOf="parent"

@@ -11,38 +11,43 @@
         style="@style/AppBarLayoutCustom"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
 
     <TextView
         android:id="@+id/tvAppBar"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/vistacinema"
-        android:textAppearance="@style/Pacifico.H2"
-        app:layout_constraintBaseline_toBottomOf="@id/ivMosaic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:textAppearance="@style/BigHause"
+        android:textSize="50sp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/ivSort"
+        app:layout_constraintBottom_toBottomOf="@+id/appBar"
+        app:layout_constraintEnd_toStartOf="@+id/ivMosaic"
+        app:layout_constraintTop_toTopOf="@+id/appBar" />
 
     <ImageView
         android:id="@+id/ivMosaic"
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:layout_marginEnd="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
         android:src="@drawable/ic_auto_awesome_mosaic"
         app:layout_constraintBottom_toBottomOf="@+id/appBar"
+        app:layout_constraintStart_toEndOf="@+id/tvAppBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <ImageView
         android:id="@+id/ivSort"
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:layout_marginEnd="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:src="@drawable/ic_sort"
+        android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="@+id/appBar"
-        app:layout_constraintEnd_toStartOf="@+id/ivMosaic"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvAppBar"/>
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/srlMovies"

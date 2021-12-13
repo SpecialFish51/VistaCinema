@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">VistaCinema</string>
     <string name="recommendations">Recommended</string>
-    <string name="vistacinema">VistaCinema</string>
+    <string name="vistacinema">Vista Cinema</string>
     <string name="year">Year: %s</string>
     <string name="rating">Rating: %s</string>
     <string name="genre">Genre: %s</string>

@@ -11,17 +11,24 @@
         style="@style/AppBarLayoutCustom"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
 
     <TextView
         android:id="@+id/tvAppBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/vistacinema"
-        android:textAppearance="@style/Pacifico.H2"
-        app:layout_constraintBaseline_toBottomOf="@id/ivMosaic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:textAppearance="@style/BigHause"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="@+id/appBar"
+        app:layout_constraintEnd_toStartOf=
+
+            "@+id/ivMosaic"
+        app:layout_constraintStart_toEndOf="@+id/ivSort"
+        app:layout_constraintTop_toTopOf="@+id/appBar"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/ivMosaic"
@@ -41,7 +48,6 @@
         android:layout_marginEnd="16dp"
         android:src="@drawable/ic_sort"
         app:layout_constraintBottom_toBottomOf="@+id/appBar"
-        app:layout_constraintEnd_toStartOf="@+id/ivMosaic"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
